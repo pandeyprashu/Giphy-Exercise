@@ -12,7 +12,7 @@ interface GiphyAPI {
     }
 
 
-    @GET("gifs/search?api_key=ezam7PLoqJ1eaHg2qvvgBUq07Bf1ptUx")
+    @GET("gifs/search?api_key=YOUR_API_KEY")
     suspend fun searchGif(@Query("q") query: String,
                           @Query("offset") offset: Int,
                           @Query("limit") limit:Int
