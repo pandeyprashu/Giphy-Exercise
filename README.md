@@ -10,9 +10,8 @@ This app shows the animated gifs and we can search for the gifs also.This projec
 »»Gson for parsing JSON objects from GIPHY API endpoints
 »»Kotlin Plugin
 »»Kotlin Coroutines
-»»Fragment
+»»Dagger-Hilt
 »»Navigation 
-»»Menu Item
 »»Search View
 »»Paging Library
 
