@@ -17,6 +17,8 @@ This app shows the animated gifs and we can search for the gifs also.This projec
 
 
 Screenshot:
+
+
 https://user-images.githubusercontent.com/87258898/225293437-c92787c5-bf23-4736-bd54-9b9ba45a1421.mp4
 
 
