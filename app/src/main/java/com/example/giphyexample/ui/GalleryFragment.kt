@@ -52,9 +52,7 @@ class GalleryFragment : Fragment(R.layout.fragment_gallery),GiphyAdapter.OnItemC
 
         viewModel.gifs.observe(viewLifecycleOwner){pagingData->
             adapter.submitData(viewLifecycleOwner.lifecycle,pagingData)
-            //Toast.makeText(activity,"ViewModel",Toast.LENGTH_SHORT).show()
-
-       //Toast.makeText(activity,"${GiphyPagingSource.offsetExample}",Toast.LENGTH_SHORT).show()
+          
 
         }
 
@@ -67,7 +65,7 @@ class GalleryFragment : Fragment(R.layout.fragment_gallery),GiphyAdapter.OnItemC
              buttonRetry.isVisible=loadState.source.refresh is LoadState.Error
              textViewError.isVisible=loadState.source.refresh is LoadState.Error
 
-             Toast.makeText(activity,"ItemCount: ${adapter.itemCount}",Toast.LENGTH_SHORT).show()
+             
 
 
 
@@ -77,7 +75,8 @@ class GalleryFragment : Fragment(R.layout.fragment_gallery),GiphyAdapter.OnItemC
                      adapter.itemCount<1){
                  recyclerView.isVisible=false
                  textViewEmpty.isVisible=true
-                 Toast.makeText(activity," LoadStateNotLoading API Calling",Toast.LENGTH_SHORT).show()
+             
+                 
              }else{
                  textViewEmpty.isVisible=false
              }
