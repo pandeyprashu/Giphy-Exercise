@@ -2,16 +2,7 @@
 ----GIF SEARCH APP---
 
 
-This app shows the animated gifs and we can search for the gifs also.
-This project uses GIPHY API for fetching gifs.
-
-Screenshot:
-
-
-
-https://user-images.githubusercontent.com/87258898/225290905-8a0e1200-9238-40ac-8c8b-fe1c28600ad7.mp4
-
-It is written 100% in Kotlin, using:
+This app shows the animated gifs and we can search for the gifs also.This project uses GIPHY API for fetching gifs.It is written 100% in Kotlin, using:
 
 »»Model-View-ViewModel (MVVM) Architecture
 »»Glide 4 for displaying animated GIFs
@@ -24,5 +15,15 @@ It is written 100% in Kotlin, using:
 »»Menu Item
 »»Search View
 »»Paging Library
+
+
+Screenshot:
+
+
+
+https://user-images.githubusercontent.com/87258898/225290905-8a0e1200-9238-40ac-8c8b-fe1c28600ad7.mp4
+
+
+
 
 
